@@ -4,6 +4,6 @@
 **Hydrogen is great** - inline results, like iPython, but in my text editor. Very cool!  
 **Octave is great** - easy syntax, great for prototyping  
  
-Getting all of them to work together... slightly not so great  
+Getting all of them to work together... slightly not so great...  
 
 For my owner personal benifit, and now yours, I have put together instructs for getting them all to play nicely together. 
