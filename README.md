@@ -1,8 +1,8 @@
 # learn-atom-hydrogen-octave
 
-/bAtom is great/b - nice text editor  
-Hydrogen is great - inline results, like iPython, but in my text editor. Very cool!  
-Octave is great - easy syntax, great for prototyping  
+**Atom is great/b** - nice text editor  
+**Hydrogen is great** - inline results, like iPython, but in my text editor. Very cool!  
+**Octave is great** - easy syntax, great for prototyping  
 
 Getting all of them to work together... slightly complicated. 
 
