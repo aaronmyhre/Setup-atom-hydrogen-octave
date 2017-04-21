@@ -1,6 +1,6 @@
 # learn-atom-hydrogen-octave
 
-Atom is great - nice text editor
+Atom is great - nice text editor /n
 Hydrogen is great - inline results, like iPython, but in my text editor. Very cool!
 Octave is great - easy syntax, great for prototyping. 
 
