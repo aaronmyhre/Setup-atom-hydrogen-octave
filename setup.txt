@@ -1,0 +1,59 @@
+# Download and Install Atom
+# Download and install juypter notebooks
+# Install Jupyter
+# Install octave kernel for Jupyter
+# Start Atom
+# Install Packages
+#  - Hydrogen
+#  - file-type
+# setup file extension mapping
+# run hydrogen
+
+
+# Assumptions
+  1. We will be using .m file extension for octave file-types
+  2. We are using python 3. This has not been tested with python2.
+  3. We are on a Mac
+  4. your have brew and brew cask installed
+  
+
+# Install Atom
+  a. direct install
+    1. download from https://atom.io/
+    2. install from wherever you downloaded it (likely ~Downloads )
+  b. brew install
+    1. brew cask install atom
+
+# Install Jupyter
+  a. pip install
+    pip3 install --upgrade pip
+    pip3 install jupyter
+
+# Install octave kernel for Jupyter
+  pip install octave_kernel
+  python -m octave_kernel.install
+
+# Start Atom
+  a. application -> atom
+
+# Install Packages
+  a. Hydrogen
+    1. Atom -> Preferences -> install -> search for and install hydrogen
+  b. file-type
+    2. Atom -> Preferences -> install -> search for and install file-type
+
+# setup file extension mapping
+  Without this step, .m file extensions will be executed under matlab scope
+  a. Atom -> Config... -> add snipit below under "*":
+
+    "file-types":
+      "m": "source.octave"
+
+    e.g.
+    "*":
+      "file-types":
+        "m": "source.octave"
+
+# run hydrogen
+  restart
+  run example
