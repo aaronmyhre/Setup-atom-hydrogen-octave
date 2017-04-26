@@ -1,0 +1,6 @@
+%% how to use cell
+
+%% %% cell 1
+print("cell", 1 )
+%% %% cell 2
+print("cell", 2 )
