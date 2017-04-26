@@ -15,7 +15,7 @@
   2. We are using python 3. This has not been tested with python2.
   3. We are on a Mac
   4. your have brew and brew cask installed
-  
+
 
 # Install Atom
   a. direct install
@@ -40,7 +40,9 @@
   a. Hydrogen
     1. Atom -> Preferences -> install -> search for and install hydrogen
   b. file-type
-    2. Atom -> Preferences -> install -> search for and install file-type
+    1. Atom -> Preferences -> install -> search for and install file-type
+  c. octave/matlab
+    1. Atom -> Preferences -> install -> search for and install language-matlab
 
 # setup file extension mapping
   Without this step, .m file extensions will be executed under matlab scope
